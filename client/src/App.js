@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-
-import './App.css';
+import HeaderPage from "./components/layouts/HeaderPage"
+import BodyPage from './components/layouts/BodyPage';
+import FooterPage from './components/layouts/FooterPage';
 
 class App extends Component {
   render() {
     return (
       <div>
-        Hi, this is us PickTune Project
+        <HeaderPage />
+        <BodyPage />
+        <FooterPage />
       </div>
     );
   }
