@@ -7,7 +7,7 @@ class FooterPage extends Component {
         var date = new Date();
         return (
             <div>
-                <footer className="mt-5 bg-dark px-5 pt-5 text-light">
+                <footer className="mt-5 bg-dark px-5 pt-5 text-light footerpage">
                     <div className="container-fluid">
                         <div className="footer-top">
                             <div className="row">
